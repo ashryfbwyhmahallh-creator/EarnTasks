@@ -1,0 +1,69 @@
+
+> earntasks@1.0.0 build
+> next build
+
+  [1m[38;2;173;127;168m▲ Next.js 14.2.15[39m[22m
+  - Environments: .env.local
+
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully
+ [37m[1m [22m[39m Linting and checking validity of types ...
+ [37m[1m [22m[39m Collecting page data ...
+ [37m[1m [22m[39m Generating static pages (0/23) ...
+ [37m[1m [22m[39m Generating static pages (5/23) 
+ [37m[1m [22m[39m Generating static pages (11/23) 
+ [37m[1m [22m[39m Generating static pages (17/23) 
+ [32m[1m✓[22m[39m Generating static pages (23/23)
+ [37m[1m [22m[39m Finalizing page optimization ...
+ [37m[1m [22m[39m Collecting build traces ...
+
+[4mRoute (app)[24m                              [4mSize[24m     [4mFirst Load JS[24m
+┌ ƒ /                                    180 B          [37m[1m94.2 kB[22m[39m
+├ ○ /_not-found                          155 B          [37m[1m87.3 kB[22m[39m
+├ ○ /account                             2.77 kB        [37m[1m96.8 kB[22m[39m
+├ ƒ /admin                               1.8 kB           [37m[1m89 kB[22m[39m
+├ ƒ /admin/cpalead                       1.87 kB        [37m[1m89.1 kB[22m[39m
+├ ƒ /admin/users                         1.83 kB          [37m[1m89 kB[22m[39m
+├ ƒ /admin/withdrawals                   1.91 kB        [37m[1m89.1 kB[22m[39m
+├ ƒ /api/admin/cpalead                   0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/admin/users                     0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/admin/withdrawals               0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/auth/callback                   0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/auth/session                    0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/cpalead/postback                0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/creator/register                0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/creator/stats                   0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/creator/withdrawals             0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/me                              0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/offers/config                   0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/proofs                          0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/referrals                       0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/transactions                    0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/wallet                          0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/welcome-survey                  0 B                [37m[1m0 B[22m[39m
+├ ƒ /api/withdrawals                     0 B                [37m[1m0 B[22m[39m
+├ ○ /blocked                             155 B          [37m[1m87.3 kB[22m[39m
+├ ○ /creator                             2.17 kB        [37m[1m96.2 kB[22m[39m
+├ ○ /creator/login                       2.71 kB         [37m[1m175 kB[22m[39m
+├ ○ /creator/register                    3.02 kB         [37m[1m175 kB[22m[39m
+├ ○ /creator/withdraw                    2.03 kB        [37m[1m89.2 kB[22m[39m
+├ ○ /dashboard                           3.76 kB        [37m[1m97.7 kB[22m[39m
+├ ○ /login                               2.53 kB         [37m[1m174 kB[22m[39m
+├ ƒ /logout                              0 B                [37m[1m0 B[22m[39m
+├ ○ /offers                              2.14 kB        [37m[1m96.1 kB[22m[39m
+├ ○ /proof                               3.37 kB         [37m[1m175 kB[22m[39m
+├ ƒ /r/[code]                            155 B          [37m[1m87.3 kB[22m[39m
+├ ○ /referral                            2.61 kB        [37m[1m96.6 kB[22m[39m
+├ ○ /register                            2.95 kB         [37m[1m175 kB[22m[39m
+└ ○ /withdraw                            3.66 kB        [37m[1m97.6 kB[22m[39m
++ First Load JS shared by all            [37m[1m87.2 kB[22m[39m
+  ├ chunks/117-0cb7070708c5d4d4.js       31.6 kB
+  ├ chunks/fd9d1056-fd7436259be6ffc1.js  53.6 kB
+  └ other shared chunks (total)          1.95 kB
+
+
+ƒ Middleware                             [37m[1m83.4 kB[22m[39m
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

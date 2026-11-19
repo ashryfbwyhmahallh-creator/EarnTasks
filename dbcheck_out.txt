@@ -1,0 +1,11 @@
+supabase-js version = 2.49.0
+url set = true | service key set = true
+createClient = OK
+profiles -> OK
+wallets -> OK
+transactions -> OK
+welcome_survey_responses -> OK
+cpalead_conversions -> OK
+withdrawals -> OK
+referrals -> OK
+platform_settings -> OK
